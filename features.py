@@ -24,7 +24,7 @@ for i in range(1,c+1):
 tuple = zip(lines, nu)
 
 sorted_tuple = sorted(tuple, key=lambda tup: float(tup[0]))
-#print(sorted_tuple)
+#print(the_sorted_tuple)
 
 pos_sorted_tuple=sorted_tuple[87027:89527]
 # neg_sorted_tuple=sorted_tuple[17731:20231]
