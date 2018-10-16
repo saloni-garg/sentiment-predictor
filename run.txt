@@ -1,0 +1,11 @@
+Files:
+create_dataset.py : creates the train and test dataset selecting 1000 instances.
+features.py : selectes 2500 top and 2500 down features according to polarity
+create_tree.py : The main executable file
+
+To run:
+Type in the terminal
+python create_dataset.py
+python features.py
+python create_tree.py 2
+where 2 represents experiment2.
